@@ -1,0 +1,18 @@
+<p>characters works!</p>
+@if (characterList$ | async; as characterList) {
+    <div class="layout">
+        @for (item of characterList.results; track item.name) {
+            <div class="card">
+                <img src="{{ item.image }}" class="card-img-top" alt="Character Image">
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.name }}</h5>
+                    <p class="card-text">Specie: {{ item.species }}</p>
+                </div>
+            </div>
+        } @empty {
+            <div class="card">There are no items.</div>
+        }
+    </div>
+}
+
+
