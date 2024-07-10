@@ -1,5 +1,7 @@
 # probando-consumir-API-angular
 
+### Se uso angular 17.1 para esta prueba, mas info sobre lo necesario para probarlo en: https://angular.dev/tutorials/first-app#local-development-environment
+#### Una vez instalado lo necesario escribir en terminal ng serve para correr el proyecto
 #### Tomando la api de rick and morthy de https://rickandmortyapi.com/api/character
 #### se hace una prueba para mapear algunos componentes de dicha api como la imagen de los personaes con su nombre y especie ademas de verificar que es responsive el mapeado (segunda imagen a media pantalla donde se adapta a ella)
 
